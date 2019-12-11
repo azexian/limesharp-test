@@ -1,0 +1,12 @@
+<html>
+<script>
+    function reformat(data) {
+        data = data.toLowerCase().replace(/[aeiou]/ig, '');
+        return data.charAt(0).toUpperCase() + data.slice(1);
+    }
+    console.log(reformat('liMeSHArp DeveLoper TEST'));
+</script>
+<body>
+<h1>See console</h1>
+</body>
+</html>
